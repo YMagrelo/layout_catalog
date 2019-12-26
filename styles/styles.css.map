@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,aAAI;AACJ,WAAI;AACJ,WAAI;AAEJ;EACE,8BAAsB;UAAtB,sBAAsB,EAAA;;AAGxB;EACE,SAAS;EACT,iCAAiC,EAAA","file":"styles.css","sourcesContent":["@use \"header\";\n@use \"main\";\n@use \"card\";\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  font-family: \"Roboto\", sans-serif;\n}\n"]}
