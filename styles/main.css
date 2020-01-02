@@ -61,8 +61,11 @@
         justify-content: space-around;
     justify-items: center; }
   @media screen and (min-width: 1024px) {
+    .catalog {
+      padding: 0 20%; }
     .catalog__list {
-      grid-template-columns: repeat(4, 1fr); } }
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center; } }
 
 .card {
   width: 200px;
