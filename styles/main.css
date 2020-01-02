@@ -53,7 +53,8 @@
     background-color: #00acdc; }
 
 .catalog {
-  padding: 0 120px; }
+  max-width: 960px;
+  margin: auto; }
   .catalog__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -61,8 +62,6 @@
         justify-content: space-around;
     justify-items: center; }
   @media screen and (min-width: 1024px) {
-    .catalog {
-      padding: 0 20%; }
     .catalog__list {
       grid-template-columns: repeat(4, 1fr);
       justify-items: center; } }
