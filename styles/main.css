@@ -54,10 +54,11 @@
 
 .catalog {
   max-width: 960px;
-  margin: auto; }
+  margin: 0 auto 50px; }
   .catalog__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 50px 40px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     justify-items: center; }
@@ -70,8 +71,7 @@
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 30px 14px 15px;
-  margin: 0 24px 50px; }
+  padding: 30px 14px 15px; }
   .card__photo {
     width: 100%;
     height: 134px;
